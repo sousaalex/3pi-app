@@ -1,0 +1,73 @@
+/* Reset de margens, preenchimentos e fonte para todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', Geneva, Tahoma, sans-serif;
+  }
+  
+
+  .navbar {
+    margin-bottom: 10%;
+    text-align: center;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em 0; /* Adicione preenchimento uniforme na parte superior e inferior */
+    display: flex;
+    justify-content: flex-end; /* Alinhe os itens à direita */
+  }
+  
+  /* Estilo dos links da barra de navegação */
+  .navbar a {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 1em; /* Adicione espaçamento horizontal entre os links */
+  }
+  
+  /* Efeito hover para os links da barra de navegação */
+  .navbar a:hover {
+    color: #f6d900;
+  }
+  
+  .title-navbar {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(226, 223, 0);
+  }
+  
+  /* Estilo do cabeçalho */
+  .header {
+    margin-bottom: 10%;
+    width: 100%;
+    font-size: 1.5em;
+    margin: 1em 0; /* Adicione espaçamento uniforme em todos os lados */
+    text-align: left; /* Centralize o texto */
+  }
+  
+  /* Estilo do texto */
+  .text {
+    width: 100%;
+    font-size: 1em;
+    margin: 1em 0;
+    text-align: justify; /* Justifique o texto para melhor legibilidade */
+  }
+  
+  /* Estrutura da seção de conteúdo */
+  .container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Distribua os contêineres igualmente na largura */
+    max-width: 1200px; /* Limite o tamanho máximo para melhor legibilidade em telas maiores */
+    margin: 0 auto; /* Centralize o conteúdo na tela */
+    padding: 5em;
+  }
+  
+
+
